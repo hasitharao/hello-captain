@@ -2,8 +2,7 @@
 
 Basic Dockerfile that prints "Hello, Captain!".
 
-Project URL: printf '# hello-captain\n\nBasic Dockerfile that prints "Hello, Captain!".\n\nProject URL: %s\n\n## Usage\n\n    docker build -t hello-captain .\n    docker run --rm hello-captain\n' "$(pbpaste)" > README.md
-cat README.md
+Project URL: https://roadmap.sh/projects/basic-dockerfile
 
 ## Usage
 
